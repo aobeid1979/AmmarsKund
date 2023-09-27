@@ -40,3 +40,14 @@
     top: 0%;
     left: 25%;
 }
+.Fail-inter{
+    width: 70%;
+    max-width: 450px;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    background: rgb(185, 126, 240);
+    padding: 50px 70px 70px;
+    text-align: center;
+
+}
