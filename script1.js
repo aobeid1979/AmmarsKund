@@ -1,13 +1,13 @@
-localStorage.setItem(userName, "Smith");
-localStorage.setItem(password, "123");
+localStorage.setItem(userName, "Bella");
+localStorage.setItem(password, "qwe123");
 
 
 
 
 
 function login(form) {
-    if (form.userName.value=="Smith") { 
-    if (form.passWord.value=="123") {              
+    if (form.userName.value=="Bella") { 
+    if (form.passWord.value=="qwe123") {              
     location="Welcome.html" 
     } else {
     location="tryAgin.html"
@@ -16,3 +16,7 @@ function login(form) {
     location="tryAgin.html"
     }
     }
+
+function GoBack(form) {
+    location="index.html"
+}
