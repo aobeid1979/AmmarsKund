@@ -16,7 +16,7 @@
     width: 70%;
     max-width: 450px;
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 30%;    
     
     text-align: center;
@@ -34,6 +34,7 @@
     text-align: center;
 }
 .image{
+
     width: 80%;
     max-width: 500px;
     position: absolute;
@@ -44,10 +45,32 @@
     width: 70%;
     max-width: 450px;
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 30%;
     background: rgb(185, 126, 240);
     padding: 50px 70px 70px;
     text-align: center;
 
+}
+.input-field{
+    margin: 5px;
+    padding: 5px;    
+    height: 40px;
+    border-radius: 25px;    
+    border: 2px solid rgb(130, 9, 243);
+    
+}
+
+.knapt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.knapt input{
+    flex-basis: 48%;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid rgb(130, 9, 243);
+    
 }
