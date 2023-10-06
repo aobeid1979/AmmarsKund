@@ -5,9 +5,39 @@
 }
 .back-image {
     width: 100%;
+    margin: auto;
     
     
 
 }
+.box {
+    
+    margin-top: 0%;
+}
 
 
+.info-box {
+    background-color: rgb(183, 159, 142);
+    color: aliceblue;
+    width: 65%;
+    margin: auto;
+    padding: 20px;
+    border: 5px rgb(189, 176, 160)  solid;
+
+}
+#welcome-bar {
+    font-size: 200%;
+    font-style: oblique ;
+    font-family: Tahoma;
+
+
+}
+
+#read-box {
+    font-style: oblique;
+    line-height: 1.1em ;
+
+
+
+
+}
