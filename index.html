@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-<html>
-    <head>
-
-        <meta namn="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Log in for kund</title>
-        <link rel="stylesheet" href="style1.css">
-        <script src="https://kit.fontawesome.com/a54d912419.js" crossorigin="anonymous"></script>
-
-        
-
-
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
     <body>
-        <div class="Welcome-side">
-            <div class="image">
-                <img src="cheflogo.jpg" alt="logo">
-            </div>
+        <div class="back-image">
+            <img src="backgroung.jpg" alt="background images">
+        
             <div class="box">
-                <h1>Read This berfor you Sign Up</h1>
-                <br>
-                <p>Where does it come from?
+                <div class="image">
+                    <img src="cheflogo.jpg" alt="logo">
+                </div>
+                <div class="info-box">
+                    <h1 id="welcome-bar">Read This berfor you Sign Up</h1>
+                    <br>
+                    <p id="read-box">Where does it come from?
                     Contrary to popular belief, Lorem Ipsum is not simply random text. 
                     It has roots in a piece of classical Latin literature from 45 BC, 
                     making it over 2000 years old. Richard McClintock, 
@@ -34,36 +32,36 @@
                       "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
                     
                     </p>
-            </div>
-            <div class="info-box">
-                <h1 id="title">Sign In</h1>
-                <form>
-                    <div class="input-field">
-                        <i class="put text"></i>
-                        <input type="text" name="userName" placeholder="User Name" autofocus="autofocus">
-                        <i class="fa-solid fa-users"></i>
-                    </div>
+                </div>
+                <div class="sign-box">
+                    <h1 id="title">Sign In</h1>
+                        <form>
+                            <div class="input-field">
+                                <i class="put text"></i>
+                                <input type="text" name="userName" placeholder="User Name" autofocus="autofocus">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
 
-                    <div class="input-field">
-                        <i class="put passWord"></i>
-                        <input type="password" name="passWord" placeholder="Password" autofocus="autofocus">
-                        <i class="fa-solid fa-key"></i>
-                    </div>
+                            <div class="input-field">
+                                <i class="put passWord"></i>
+                                <input type="password" name="passWord" placeholder="Password" autofocus="autofocus">
+                                <i class="fa-solid fa-key"></i>
+                            </div>
 
-                    <div class="knapt">                            
+                            <div class="knapt">                            
                                 <input type="button" value="Login" onClick="login(this.form)">
                                 <input type="reset" value="Reset">               
-                    </div>
+                            </div>
 
 
-                </form>
+                        </form>
+                </div>
             </div>
-
         </div>
         
 
-        <script src="script1.js">
-            console.log(LocalStorage);
+        <script src="script.js">
+            
         </script>
 
     </body>

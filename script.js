@@ -1,5 +1,9 @@
 localStorage.setItem(userName, "Bella");
 localStorage.setItem(password, "qwe123");
+document.getElementById("title");
+
+
+
 
 
 
@@ -8,7 +12,7 @@ localStorage.setItem(password, "qwe123");
 function login(form) {
     if (form.userName.value=="Bella") { 
     if (form.passWord.value=="qwe123") {              
-    location="Welcome.html" 
+    " 
     } else {
     location="tryAgin.html"
     }

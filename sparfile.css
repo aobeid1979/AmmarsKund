@@ -1,0 +1,54 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.back-image {
+    width: 100%;
+    
+
+}
+
+
+.box {
+    width: 100%;
+    length: 100%;
+    
+    
+
+}
+
+
+.image {
+    
+    width: 80%;
+    color: #180909;
+    
+    
+    
+    
+
+}
+
+.info-box {
+    border: 2px solid #180909;
+    padding: 15px;
+    
+    width: 80%;
+    margin: auto;
+    
+    
+    margin: 10px 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1em;
+    background: #5b4c4c;
+    color: aliceblue;
+    box-sizing: border-box;
+
+}
+
+#welcome-bar {
+    line-height: 1.6em;
+    background: #846b6b;
+    
+}
