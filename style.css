@@ -3,57 +3,80 @@
     margin: 0;
     padding: 0;
 }
-.back-image {
-    width: 100%;
-    margin: auto;
-    
-    
-
-}
 .box {
     
     
-    
-
-    
-
-
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    background-image: url(backgroung.jpg);
+    background-position: center;
 }
 
 
 .info-box {
-    background-color: rgb(183, 159, 142);
-    color: aliceblue;
+    
+    color: rgb(5, 122, 238);
     width: 65%;
     margin: auto;
     padding: 20px;
     border: 5px rgb(189, 176, 160)  solid;
     border-radius: 15px;
+    font-weight: 100;
 
 }
 #welcome-bar {
     font-size: 200%;
     font-style: oblique ;
     font-family: Tahoma;
-
-
 }
 
 #read-box {
     font-style: oblique;
     line-height: 1.1em ;
-
-
-
-
+    font-weight: bold;
+    color: #053a01;
+    font-size: 20px;
 }
 
 .sign-box {
-    background-color: rgb(183, 159, 142);
-    color: aliceblue;
+    
+    color: rgb(30, 34, 37);
     width: 65%;
     margin: auto;
     padding: 20px;
     border: 5px rgb(189, 176, 160)  solid;
     border-radius: 15px;
+    
+}
+#title {
+    text-align: center;
+}
+.input-field {
+    padding: 10px;
+    border-radius: 20px;
+
+    text-align: center;
+    width: 100%;
+}
+.knapt {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    width: 25%;
+    padding: 10px 15px; 
+    margin: auto;
+    color: rgb(53, 46, 41);
+    background-color: rgb(227, 205, 190);
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.button:hover{
+    background: red;
+    color: #eee;
 }
