@@ -63,7 +63,7 @@
     text-align: center;
 }
 
-.button {
+#loginbut {
     text-align: center;
     width: 25%;
     padding: 10px 15px; 
@@ -76,7 +76,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
-.button:hover{
+#loginbut:hover{
     background: red;
     color: #eee;
 }
