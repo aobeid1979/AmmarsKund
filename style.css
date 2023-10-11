@@ -59,11 +59,9 @@
     text-align: center;
     width: 100%;
 }
-.knapt {
-    text-align: center;
-}
 
-#loginbut {
+
+.logIn {
     text-align: center;
     width: 25%;
     padding: 10px 15px; 
@@ -75,8 +73,4 @@
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-}
-#loginbut:hover{
-    background: red;
-    color: #eee;
 }

@@ -1,26 +1,40 @@
-const welcome1 = document.querySelector('#title');
-console.log(welcome1);
-const loginButton = document.getElementById('loginbut');
-console.log(loginButton);
-const userName = document.querySelector('#input-text');
-console.log(userName);
-const passWord = document.querySelector('#input-passWord');
-console.log(passWord);
+// funktion för att spara användarnamn i localstorage
+function setLocalStorage() {
+    localStorage.setItem("username", inputUserName.value);
+    localStorage.setItem("password", inputPassword.value);
+}
+
+var namn = 'Bella';
+var pass = 'qwe123';
+
+if (
+    localStorage.getItem("username") === namn &&
+    localStorage.getItem("password") === lösenord
+  ) {
+    login();
+  }
+
+const logInBtn = document.getElementById("logInBtn");
 
 
 
 
-
-
-
-
-loginButton.addEventListener('click', onClick);
-    function onClick(e){
-    e.preventDefault();
-
-    if (userName === 1 && passWord === 1) {
-        alert("You have successfully logged in.");
-};
+  logInBtn.addEventListener("click", function () {
+    if (inputUserName.value === namn && inputPassword.value === lösenord) {
+      console.log('hi');
     }
+      
+  });
 
-    
+
+/*function loginPage(form) {
+    if (form.userName.value === user) { 
+    if (form.passWord.value === pass) {              
+    location="home.html" 
+    } else {
+    alert("Incorrect detail Password")
+    }
+    } else {  alert("Incorrect detail Username")
+    }
+    }
+    */
