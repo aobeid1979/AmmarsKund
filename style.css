@@ -74,3 +74,66 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+#loggaUt{
+    
+    text-align: center;
+    width: 100%;
+    padding: 10px 15px; 
+    margin: auto;
+    color: rgb(53, 46, 41);
+    background-color: rgb(227, 205, 190);
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+h1{
+    
+    text-align: center;
+    width: 100%;
+    padding: 10px 15px; 
+    margin: auto;
+}
+#newBtn{
+    
+    text-align: center;
+    width: 100%;
+    padding: 10px 15px; 
+    margin: auto;
+    color: rgb(53, 46, 41);
+    background-color: rgb(227, 205, 190);
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.Något-Fel{
+    text-align: center;
+    width: 100%;
+    padding: 10px 15px; 
+    margin: auto;
+    color: rgb(53, 46, 41);
+    background-color: rgb(227, 205, 190);
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.welcome{
+    text-align: center;
+    width: 100%;
+    padding: 10px 15px; 
+    margin: auto;
+    color: rgb(53, 46, 41);
+    background-color: rgb(227, 205, 190);
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
